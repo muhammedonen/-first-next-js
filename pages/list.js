@@ -2,7 +2,6 @@ import Navi from "../component/navi";
 
 function list() {
   return (
-    //jsx css methoduna iyi bak
     <div className="listo">
       <Navi />
       <ul id="lis">
