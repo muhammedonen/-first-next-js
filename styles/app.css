@@ -1,0 +1,40 @@
+body{
+  background-color: #b6ad90;
+  display: flex;
+  justify-content: center;
+  
+}
+h2{
+  border-bottom: 1px solid black;
+  text-align: center;
+}
+.smll{
+  color: black;
+  font-style: italic;
+  margin-top: 25px;
+  font-weight: bold;
+  border: 1px solid black;
+  padding: 10px;
+
+}
+nav{
+  width: auto;
+  display: flex;
+  justify-content: space-around;
+  
+ 
+}
+nav a {
+  font-weight: bold;
+  text-decoration: none;
+  margin: 5px;
+  color: #FFD124;
+
+}
+#lis{
+  color: black;
+  font-weight: bold;
+  list-style-type: none;
+  text-align: center;
+  padding: 0;
+}
