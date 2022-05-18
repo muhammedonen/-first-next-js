@@ -6,20 +6,20 @@ function list() {
     <div className="listo">
       <Navi />
       <ul id="lis">
-        <li>musab</li>
-        <li>lokman</li>
-        <li>musa</li>
-        <li>nesibe</li>
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+        <li>4</li>
       </ul>
 
       <style global jsx>
         {`
           li {
             color: red;
-            background-color: black;
+            border: 1px solid red;
           }
           body {
-            background-color: green;
+            background-color: #b6ad90;
           }
         `}
       </style>
