@@ -16,6 +16,7 @@ function list() {
         {`
           li {
             color: red;
+            margin-bottom: 3px;
             border: 1px solid red;
           }
           body {
