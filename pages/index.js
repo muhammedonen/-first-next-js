@@ -1,11 +1,10 @@
-import Navi from "../component/navi";
+import Layout from "../component/layout";
 
 function HomePage() {
   return (
-    <div>
-      <Navi />
+    <Layout>
       <h2> Welcome to Next.js!</h2>
-    </div>
+    </Layout>
   );
 }
 

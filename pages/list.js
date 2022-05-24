@@ -1,9 +1,8 @@
-import Navi from "../component/navi";
+import Layout from "../component/layout";
 
 function list() {
   return (
-    <div className="listo">
-      <Navi />
+    <Layout>
       <ul id="lis">
         <li>1</li>
         <li>2</li>
@@ -13,17 +12,10 @@ function list() {
 
       <style global jsx>
         {`
-          li {
-            color: red;
-            margin-bottom: 3px;
-            border: 1px solid red;
-          }
-          body {
-            background-color: #b6ad90;
-          }
+         
         `}
       </style>
-    </div>
+    </Layout>
   );
 }
 export default list;

@@ -1,40 +1,35 @@
-body{
-  background-color: #b6ad90;
+body {
+  background: #0F2027;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
   display: flex;
   justify-content: center;
-  
 }
-h2{
-  border-bottom: 1px solid black;
+h2 {
+  color: azure;
+  border-bottom: 1px solid azure;
   text-align: center;
 }
-.smll{
-  color: black;
-  font-style: italic;
-  margin-top: 25px;
-  font-weight: bold;
-  border: 1px solid black;
-  padding: 10px;
-
-}
-nav{
+nav {
   width: auto;
   display: flex;
   justify-content: space-around;
-  
- 
 }
 nav a {
   font-weight: bold;
   text-decoration: none;
   margin: 5px;
-  color: #FFD124;
-
+  color: #ffd124;
 }
-#lis{
-  color: black;
+#lis {
+  color: azure;
   font-weight: bold;
   list-style-type: none;
   text-align: center;
   padding: 0;
+  
+}
+#lis li{
+  border-bottom: 1px solid azure;
 }
