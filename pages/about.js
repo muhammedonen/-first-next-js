@@ -4,7 +4,7 @@ function HomePage() {
   return (
     <Layout>
      
-      <style global jsx>
+      <style  jsx>
         {`
           
         `}

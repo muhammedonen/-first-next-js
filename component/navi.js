@@ -18,7 +18,13 @@ function Navi() {
           <a>Liste Sayfası</a>
         </Link>
       </nav>
-     
+     <style jsx>
+       {`
+         .logo{
+           border-bottom: 2px solid azure;
+         }
+       `}
+     </style>
     </div>
   );
 }
