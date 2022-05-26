@@ -9,12 +9,6 @@ function list() {
         <li>3</li>
         <li>4</li>
       </ul>
-
-      <style global jsx>
-        {`
-         
-        `}
-      </style>
     </Layout>
   );
 }

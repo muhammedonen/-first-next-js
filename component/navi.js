@@ -1,8 +1,12 @@
 import Link from "next/link";
+import Image from "next/image";
+import logo from "../public/logom.png";
 
 function Navi() {
   return (
+    
     <div>
+     <div className="logo"><Image src={logo} width={300}  height={80} /></div>
       <nav>
         <Link href={"/"}>
           <a>Anasayfa</a>
@@ -14,6 +18,7 @@ function Navi() {
           <a>Liste Sayfası</a>
         </Link>
       </nav>
+     
     </div>
   );
 }

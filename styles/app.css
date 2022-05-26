@@ -16,6 +16,7 @@ nav {
   display: flex;
   justify-content: space-around;
 }
+
 nav a {
   font-weight: bold;
   text-decoration: none;
@@ -32,4 +33,5 @@ nav a {
 }
 #lis li{
   border-bottom: 1px solid azure;
+  
 }
