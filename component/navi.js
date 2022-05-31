@@ -9,13 +9,13 @@ function Navi() {
      <div className="logo"><Image src={logo} width={300}  height={80} /></div>
       <nav>
         <Link href={"/"}>
-          <a>Anasayfa</a>
+          <a className="hover:text-green-500">Anasayfa</a>
         </Link>
         <Link href={"/about"}>
-          <a>Hakkımda</a>
+          <a className="hover:text-green-500">Hakkımda</a>
         </Link>
         <Link href={"/list"}>
-          <a>Liste Sayfası</a>
+          <a className="hover:text-green-500">Liste Sayfası</a>
         </Link>
       </nav>
      <style jsx>
