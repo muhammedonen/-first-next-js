@@ -6,35 +6,6 @@ body {
 background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  
 background: linear-gradient(to right, #2C5364, #203A43, #0F2027); 
 
-  display: flex;
-  justify-content: center;
-}
-h2 {
-  color: azure;
-  border-bottom: 1px solid azure;
-  text-align: center;
-}
-nav {
-  width: auto;
-  display: flex;
-  justify-content: space-around;
 }
 
-nav a {
-  font-weight: bold;
-  text-decoration: none;
-  margin: 5px;
-  color: #ffd124;
-}
-#lis {
-  color: azure;
-  font-weight: bold;
-  list-style-type: none;
-  text-align: center;
-  padding: 0;
-  
-}
-#lis li{
-  border-bottom: 1px solid azure;
-  
-}
+

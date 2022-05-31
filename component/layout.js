@@ -1,9 +1,11 @@
-import Navi from "./navi";
+import Navbar from "./navbar";
+
+
 function Layout({ children }) {
   return (
-    <div>
-      <Navi />
-      <main>{children}</main>
+    <div className="">
+      <Navbar/>
+      <main className="">{children}</main>
     </div>
   );
 }
