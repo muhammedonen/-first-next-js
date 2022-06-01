@@ -1,16 +1,11 @@
 import Layout from "../component/layout";
 
-function HomePage() {
+function About() {
   return (
     <Layout>
      
-      <style  jsx>
-        {`
-          
-        `}
-      </style>
     </Layout>
   );
 }
 
-export default HomePage;
+export default About;

@@ -1,10 +1,10 @@
 import Layout from "../component/layout";
 
-function list() {
+function proje() {
   return (
     <Layout>
      
     </Layout>
   );
 }
-export default list;
+export default proje;
