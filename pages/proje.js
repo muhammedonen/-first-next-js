@@ -3,7 +3,7 @@ import Layout from "../component/layout";
 function proje({veri,name,subject}) {
   return (
     <Layout>
-     <div className="h-120  flex  flex-col justify-between items-center text-white ">
+     <div className="h-120  flex  flex-wrap justify-around items-center text-white ">
         <div className="flex text-center bg-gray-700 p-3 rounded-lg border-2">
           <h3 className="text-3xl">{subject}</h3>
           <span className="text-3xl underline text-red-500"><a href="https://jsonplaceholder.typicode.com/users"> {name}</a> </span>
